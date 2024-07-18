@@ -1,9 +1,29 @@
+.air, .box {
+    /** TEXT GRADIENT */ color: #dedee1; background-image: -webkit-linear-gradient(270deg, #dedee1 50%, #c1c0c8 50%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;     
+}
+
 .herosection-container {
     background-color: #262336;
 }
 
 .logosandtext-container {
     background-color: #f29b66;
+}
+
+.bullets-container {
+    background-color: #262336;
+}
+
+.bullets-container ul {
+    list-style-position: inside;
+}
+
+li::marker {
+    color: orange;
+}
+
+.labels-container {
+    background-color: #322f40;
 }
 
 
